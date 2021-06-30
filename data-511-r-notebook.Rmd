@@ -1,0 +1,117 @@
+---
+title: "DATA 511 Project (R Notebook)"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+This project is for DATA 511 - Big Data Strategy for Samford University.We have 
+been tasked to collect data on a topic we are curious about, compile data, and 
+produce visualization to find trends in the data.
+
+I am looking into email response times from my company, Jacksonville State.
+
+
+I first needed to import all the packages needed for this project.
+```{r include=FALSE}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(lubridate)
+library(reshape)
+```
+
+Import the whole dataset from the project. 
+```{r}
+email_response <- read_csv("hw5_data.csv")
+```
+
+Calculating the correlation coefficient between my response time and the 
+response time
+```{r Overall Corr Coefficient, echo=TRUE}
+email_response$mytime_num <- as.numeric(email_response$my_response_time)
+email_response$responsetime_num <- 
+  as.numeric(email_response$return_response_time)
+response_corr <- cor(email_response$mytime_num, email_response$responsetime_num)
+response_corr
+
+```
+The number above shows us that there is a very slight positive correlation bewteen my response time and the respondents repsonse time. This becomes very evident when looking a scatter plot with the data.
+```{r}
+email_viz01 <- ggplot(data=email_response, aes(x=my_response_time, 
+                                             y=return_response_time)) +
+  geom_point() +
+  geom_smooth(method=lm,
+              se=FALSE) +
+  xlab('My Response Time') + 
+  ylab('Return Response Time') +
+  ggtitle("Email Response Time Scatter Plot")
+  
+email_viz01
+```
+
+
+We can break it down even further to examine if there was a stronger correlation between my response time while sending messages through Microdot Outlook or through Microsoft Teams. 
+
+
+```{r Microsoft Teams Correlation Coefficient, echo=TRUE}
+mt_messages <- email_response %>% filter(service == "MT")
+mt_messages$mytime_num <- as.numeric(mt_messages$my_response_time)
+mt_messages$responsetime_num <- 
+  as.numeric(mt_messages$return_response_time)
+mt_response_corr <- cor(mt_messages$mytime_num, mt_messages$responsetime_num)
+mt_response_corr
+```
+We see from the number above that there is actually a slightly negative correlation in response time for conversations taking place through Microsoft Teams. 
+
+
+```{r Microsoft Outlook Correlation Coefficient, echo=TRUE}
+mo_messages <- email_response %>% filter(service == "MO")
+mo_messages$mytime_num <- as.numeric(mo_messages$my_response_time)
+mo_messages$responsetime_num <- 
+  as.numeric(mo_messages$return_response_time)
+mo_response_corr <- cor(mo_messages$mytime_num, mo_messages$responsetime_num)
+mo_response_corr
+```
+
+
+Scatter plot for data showing differences in Microsoft Outlook and Microsoft 
+Teams response times
+```{r}
+email_viz <- ggplot(data=email_response, aes(x=my_response_time, 
+                                             y=return_response_time, 
+                                             color=service)) +
+  geom_point() +
+  geom_smooth(method=lm,
+              se=FALSE) +
+  xlab('My Response Time') + 
+  ylab('Return Response Time') +
+  scale_colour_manual(values=c("#0072C6", "#7B83EB"),
+                        name="Communication Platform",
+                        breaks=c("MO", "MT"),
+                        labels=c("Microsoft Outlook", "Microsoft Teams")) +
+  theme(legend.position = "top")
+  
+email_viz
+```
+
+
+Importing data for the times emails were received
+```{r}
+received_times <- read_csv("email_times.csv")
+```
+Building out a histograms to show when people sent emails the most
+```{r}
+m <- mean(received_times$times)
+std <- sqrt(var(received_times$times))
+resp_viz <- ggplot(data = received_times, aes(x=times)) +
+  geom_histogram() +
+  xlab("Time of the Day") + 
+  ylab("Number of Emails") +
+  ggtitle("Time of Day Emails Were Received") + 
+  theme(plot.title = element_text(lineheight=.8, face="bold"))
+resp_viz
+```
+

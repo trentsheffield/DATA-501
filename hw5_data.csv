@@ -1,0 +1,93 @@
+id,email_received_timestamp,email_time_only,my_email_sent_timestamp,response_received_timestamp,reponse_time_only,contact_name,department/organization,relationship,service,my_response_time,return_response_time
+1,6/8/2021 8:58,8:58:00 AM,6/8/2021 9:03,6/8/2021 15:41,3:41:00 PM,Calli Boyles,Gamecock Suites,internal,MO,0:05,6:38
+2,6/8/2021 10:00,10:00:00 AM,6/8/2021 10:06,6/8/2021 10:08,10:08:00 AM,Morgan Worsham,Art,internal,MO,0:06,0:02
+3,6/8/2021 10:04,10:04:00 AM,6/8/2021 10:05,6/8/2021 10:13,10:13:00 AM,Kim Cooper,Music,internal,MO,0:01,0:08
+4,6/8/2021 10:08,10:08:00 AM,6/8/2021 10:10,6/8/2021 10:10,10:10:00 AM,Morgan Worsham,Art,internal,MO,0:02,0:00
+5,6/8/2021 10:56,10:56:00 AM,6/8/2021 11:01,6/8/2021 11:07,11:07:00 AM,Lauren Findley,Undergraduate Admissions,internal,MO,0:05,0:06
+6,6/8/2021 11:39,11:39:00 AM,6/8/2021 11:41,6/8/2021 11:42,11:42:00 AM,Luke Jackson,Camps and Conferences,internal,MO,0:02,0:01
+7,6/8/2021 13:59,1:59:00 PM,6/8/2021 14:04,6/8/2021 14:04,2:04:00 PM,Jennifer Yocum,Student Success ,internal,MO,0:05,0:00
+8,6/8/2021 15:41,3:41:00 PM,6/8/2021 15:47,6/8/2021 15:49,3:49:00 PM,Calli Boyles,Gamecock Suites,internal,MO,0:06,0:02
+9,6/8/2021 12:21,12:21:00 PM,6/8/2021 16:11,6/9/2021 8:55,8:55:00 AM,Nick Brown,Housing and Residence Life,internal,MO,3:50,16:44
+10,6/9/2021 8:57,8:57:00 AM,6/9/2021 8:58,6/9/2021 9:01,9:01:00 AM,Jennifer Yocum,Student Success ,internal,MO,0:01,0:03
+11,6/8/2021 15:26,3:26:00 PM,6/8/2021 15:57,6/8/2021 16:35,4:35:00 PM,Morgan Harris,Varsity Spirit Camp,external,MO,0:31,0:38
+12,6/8/2021 16:35,4:35:00 PM,6/10/2021 8:26,6/10/2021 12:36,12:36:00 PM,Morgan Harris,Varsity Spirit Camp,external,MO,15:51,4:10
+13,6/11/2021 11:05,11:05:00 AM,6/11/2021 12:03,6/11/2021 12:24,12:24:00 PM,Skip Clark,Internal Audit,internal,MO,0:58,0:21
+14,6/11/2021 12:38,12:38:00 PM,6/11/2021 12:47,6/11/2021 12:48,12:48:00 PM,Ann Jones,Delta Kappa Gamma,external,MO,0:09,0:01
+15,6/11/2021 14:35,2:35:00 PM,6/11/2021 15:19,6/11/2021 15:19,3:19:00 PM,Michael Barton,University Police,internal,MO,0:44,0:00
+16,6/14/2021 7:38,7:38:00 AM,6/14/2021 8:41,6/14/2021 8:43,8:43:00 AM,Ann Jones,Delta Kappa Gamma,external,MO,1:03,0:02
+17,6/14/2021 8:43,8:43:00 AM,6/14/2021 9:30,6/14/2021 9:40,9:40:00 AM,Ann Jones,Delta Kappa Gamma,external,MO,0:47,0:10
+18,6/14/2021 13:36,1:36:00 PM,6/14/2021 13:39,6/14/2021 13:42,1:42:00 PM,Jennifer Yocum,Student Success ,internal,MO,0:03,0:03
+19,6/14/2021 14:35,2:35:00 PM,6/14/2021 14:36,6/14/2021 15:01,3:01:00 PM,Jennifer Yocum,Student Success ,internal,MO,0:01,0:25
+20,6/14/2021 15:10,3:10:00 PM,6/15/2021 8:20,6/15/2021 8:32,8:32:00 AM,Windy Vanover,Building Services,internal,MO,17:10,0:12
+21,6/15/2021 8:39,8:39:00 AM,6/15/2021 8:41,6/15/2021 8:42,8:42:00 AM,Nick Brown,Housing and Residence Life,internal,MO,0:02,0:01
+22,6/14/2021 13:27,1:27:00 PM,6/14/2021 14:38,6/14/2021 14:43,2:43:00 PM,Cody Wells,Football,internal,MO,1:11,0:05
+23,6/14/2021 15:22,3:22:00 PM,6/15/2021 8:13,6/15/2021 9:55,9:55:00 AM,Morgan Worsham,Art,internal,MO,16:51,1:42
+24,6/16/2021 10:21,10:21:00 AM,6/16/2021 10:24,6/16/2021 10:31,10:31:00 AM,Becky Key,Sodexo,external,MO,0:03,0:07
+25,6/10/2021 7:27,7:27:00 AM,6/10/2021 8:33,6/10/2021 8:35,8:35:00 AM,Morgan Worsham,Art,internal,MO,1:06,0:02
+26,6/14/2021 8:19,8:19:00 AM,6/14/2021 8:39,6/14/2021 8:39,8:39:00 AM,Morgan Worsham,Art,internal,MO,0:20,0:00
+27,6/14/2021 8:56,8:56:00 AM,6/14/2021 10:23,6/14/2021 10:24,10:24:00 AM,Morgan Worsham,Art,internal,MO,1:27,0:01
+28,6/14/2021 10:24,10:24:00 AM,6/14/2021 11:52,6/14/2021 13:16,1:16:00 PM,Morgan Worsham,Art,internal,MO,1:28,1:24
+29,6/17/2021 13:11,1:11:00 PM,6/17/2021 13:12,6/17/2021 13:12,1:12:00 PM,Lori McFall,Athletics,internal,MO,0:01,0:00
+30,6/17/2021 13:36,1:36:00 PM,6/17/2021 15:38,6/17/2021 15:40,3:40:00 PM,Megan Phillips,Athletics,internal,MO,2:02,0:02
+31,6/17/2021 15:40,3:40:00 PM,6/17/2021 15:41,6/17/2021 15:42,3:42:00 PM,Megan Phillips,Athletics,internal,MO,0:01,0:01
+32,6/18/2021 11:01,11:01:00 AM,6/18/2021 12:21,6/18/2021 15:46,3:46:00 PM,Geoff Cooper,Cheaha Challenge,external,MO,1:20,3:25
+33,6/20/2021 18:09,6:09:00 PM,6/21/2021 8:09,6/21/2021 8:32,8:32:00 AM,Morgan Worsham,Art,internal,MO,14:00,0:23
+34,6/21/2021 8:32,8:32:00 AM,6/21/2021 8:34,6/21/2021 8:35,8:35:00 AM,Morgan Worsham,Art,internal,MO,0:02,0:01
+35,6/16/2021 11:52,11:52:00 AM,6/16/2021 13:14,6/16/2021 13:16,1:16:00 PM,Dominic DiMauro,University Recreation,external,MO,1:22,0:02
+36,6/22/2021 9:06,9:06:00 AM,6/22/2021 9:08,6/22/2021 9:10,9:10:00 AM,Cannon Connell,International House,internal,MO,0:02,0:02
+37,6/22/2021 9:12,9:12:00 AM,6/22/2021 9:59,6/22/2021 10:14,10:14:00 AM,Deborah Buzan,Student Success ,internal,MO,0:47,0:15
+38,6/23/2021 9:06,9:06:00 AM,6/23/2021 9:08,6/23/2021 9:10,9:10:00 AM,Windy Vanover,Building Services,internal,MO,0:02,0:02
+39,6/23/2021 9:10,9:10:00 AM,6/23/2021 9:12,6/23/2021 13:00,1:00:00 PM,Windy Vanover,Building Services,internal,MO,0:02,3:48
+40,6/23/2021 9:03,9:03:00 AM,6/23/2021 13:08,6/23/2021 13:08,1:08:00 PM,Paige McDonald,Athletics,internal,MO,4:05,0:00
+41,6/22/2021 8:46,8:46:00 AM,6/23/2021 12:57,6/23/2021 13:37,1:37:00 PM,Morgan Worsham,Art,internal,MO,4:11,0:40
+42,6/23/2021 13:37,1:37:00 PM,6/23/2021 14:42,6/23/2021 14:46,2:46:00 PM,Morgan Worsham,Art,internal,MO,1:05,0:04
+43,6/23/2021 9:04,9:04:00 AM,6/23/2021 10:06,6/23/2021 12:41,12:41:00 PM,Nick Brown,Housing and Residence Life,internal,MO,1:02,2:35
+44,6/23/2021 12:42,12:42:00 PM,6/23/2021 13:07,6/23/2021 15:02,3:02:00 PM,Nick Brown,Housing and Residence Life,internal,MO,0:25,1:55
+45,6/24/2021 11:33,11:33:00 AM,6/24/2021 13:07,6/24/2021 13:37,1:37:00 PM,Kim Cooper,Music,internal,MO,1:34,0:30
+46,6/24/2021 13:51,1:51:00 PM,6/24/2021 14:05,6/24/2021 14:06,2:06:00 PM,Kim Cooper,Music,internal,MO,0:14,0:01
+47,6/25/2021 8:38,8:38:00 AM,6/25/2021 8:40,6/25/2021 8:45,8:45:00 AM,Paige McDonald,Athletics,internal,MO,0:02,0:05
+48,6/25/2021 8:45,8:45:00 AM,6/25/2021 8:52,6/25/2021 8:54,8:54:00 AM,Paige McDonald,Athletics,internal,MO,0:07,0:02
+49,6/24/2021 12:13,12:13:00 PM,6/25/2021 10:06,6/25/2021 10:08,10:08:00 AM,Janet Whitmore,Event Planning,internal,MO,21:53,0:02
+50,6/28/2021 11:05,11:05:00 AM,6/28/2021 11:06,6/28/2021 11:06,11:06:00 AM,Deborah Fancher,Procurement,internal,MO,0:01,0:00
+51,6/8/2021 12:21,12:21:00 PM,6/8/2021 16:11,6/9/2021 8:55,8:55:00 AM,Nick Brown,Housing and Residence Life,internal,MO,3:50,16:44
+52,6/29/2021 8:14,8:14:00 AM,6/29/2021 8:40,6/29/2021 8:41,8:41:00 AM,Nick Brown,Housing and Residence Life,internal,MO,0:26,0:01
+53,6/9/2021 15:20,3:20:00 PM,6/10/2021 8:31,6/10/2021 9:00,9:00:00 AM,Tina Trussell,Finance and Administration,internal,MT,17:11,0:29
+54,6/10/2021 9:00,9:00:00 AM,6/10/2021 9:06,6/10/2021 14:20,2:20:00 PM,Tina Trussell,Finance and Administration,internal,MT,0:06,5:14
+55,6/11/2021 8:13,8:13:00 AM,6/11/2021 9:33,6/11/2021 9:34,9:34:00 AM,Tina Trussell,Finance and Administration,internal,MT,1:20,0:01
+56,6/11/2021 9:34,9:34:00 AM,6/11/2021 9:35,6/11/2021 13:04,1:04:00 PM,Tina Trussell,Finance and Administration,internal,MT,0:01,3:29
+57,6/15/2021 8:14,8:14:00 AM,6/15/2021 8:15,6/15/2021 8:15,8:15:00 AM,Tina Trussell,Finance and Administration,internal,MT,0:01,0:00
+58,6/15/2021 8:15,8:15:00 AM,6/15/2021 8:17,6/15/2021 8:22,8:22:00 AM,Tina Trussell,Finance and Administration,internal,MT,0:02,0:05
+59,6/15/2021 8:22,8:22:00 AM,6/15/2021 8:36,6/15/2021 8:57,8:57:00 AM,Tina Trussell,Finance and Administration,internal,MT,0:14,0:21
+60,6/15/2021 8:57,8:57:00 AM,6/15/2021 9:10,6/15/2021 9:19,9:19:00 AM,Tina Trussell,Finance and Administration,internal,MT,0:13,0:09
+61,6/22/2021 9:15,9:15:00 AM,6/22/2021 9:16,6/22/2021 9:16,9:16:00 AM,Tina Trussell,Finance and Administration,internal,MT,0:01,0:00
+62,6/28/2021 13:34,1:34:00 PM,6/28/2021 13:34,6/28/2021 13:35,1:35:00 PM,Tina Trussell,Finance and Administration,internal,MT,0:00,0:01
+63,6/25/2021 13:29,1:29:00 PM,6/25/2021 15:01,6/25/2021 15:02,3:02:00 PM,David Lyon,Controller,internal,MT,1:32,0:01
+64,6/15/2021 13:59,1:59:00 PM,6/15/2021 14:02,6/15/2021 14:03,2:03:00 PM,Eric Johnson,Human Resources,internal,MT,0:03,0:01
+65,6/15/2021 14:03,2:03:00 PM,6/15/2021 14:04,6/15/2021 14:04,2:04:00 PM,Eric Johnson,Human Resources,internal,MT,0:01,0:00
+66,6/15/2021 14:04,2:04:00 PM,6/15/2021 14:06,6/15/2021 14:07,2:07:00 PM,Eric Johnson,Human Resources,internal,MT,0:02,0:01
+67,6/15/2021 14:07,2:07:00 PM,6/15/2021 14:11,6/15/2021 14:12,2:12:00 PM,Eric Johnson,Human Resources,internal,MT,0:04,0:01
+68,6/15/2021 14:12,2:12:00 PM,6/15/2021 14:15,6/15/2021 14:17,2:17:00 PM,Eric Johnson,Human Resources,internal,MT,0:03,0:02
+69,6/16/2021 11:28,11:28:00 AM,6/16/2021 11:28,6/16/2021 11:29,11:29:00 AM,Eric Johnson,Human Resources,internal,MT,0:00,0:01
+70,6/21/2021 14:52,2:52:00 PM,6/21/2021 14:52,6/21/2021 14:53,2:53:00 PM,Eric Johnson,Human Resources,internal,MT,0:00,0:01
+71,6/21/2021 14:53,2:53:00 PM,6/21/2021 15:05,6/21/2021 15:07,3:07:00 PM,Eric Johnson,Human Resources,internal,MT,0:12,0:02
+72,6/22/2021 9:44,9:44:00 AM,6/22/2021 10:06,6/22/2021 10:07,10:07:00 AM,Casey Mooney,Student Accounts,internal,MT,0:22,0:01
+73,6/16/2021 7:32,7:32:00 AM,6/16/2021 10:08,6/16/2021 10:16,10:16:00 AM,Paige McDonald,Athletics,internal,MT,2:36,0:08
+74,6/16/2021 10:16,10:16:00 AM,6/16/2021 10:19,6/16/2021 10:20,10:20:00 AM,Paige McDonald,Athletics,internal,MT,0:03,0:01
+75,6/16/2021 10:20,10:20:00 AM,6/16/2021 10:23,6/16/2021 10:24,10:24:00 AM,Paige McDonald,Athletics,internal,MT,0:03,0:01
+76,6/9/2021 14:43,2:43:00 PM,6/10/2021 8:31,6/10/2021 8:31,8:31:00 AM,Jessica Wiggins,Financial Aid,internal,MT,17:48,0:00
+77,6/8/2021 13:33,1:33:00 PM,6/8/2021 17:15,6/8/2021 17:21,5:21:00 PM,Jennifer Argo,Title XI,internal,MT,3:42,0:06
+78,6/28/2021 9:50,9:50:00 AM,6/28/2021 9:53,6/28/2021 9:53,9:53:00 AM,Zach Glenn,Camps and Conferences,internal,MT,0:03,0:00
+79,6/28/2021 9:53,9:53:00 AM,6/28/2021 9:56,6/28/2021 9:57,9:57:00 AM,Zach Glenn,Camps and Conferences,internal,MT,0:03,0:01
+80,6/28/2021 9:57,9:57:00 AM,6/28/2021 10:01,6/28/2021 10:03,10:03:00 AM,Zach Glenn,Camps and Conferences,internal,MT,0:04,0:02
+81,6/28/2021 10:03,10:03:00 AM,6/28/2021 10:42,6/28/2021 10:42,10:42:00 AM,Zach Glenn,Camps and Conferences,internal,MT,0:39,0:00
+82,6/28/2021 10:48,10:48:00 AM,6/28/2021 10:50,6/28/2021 10:54,10:54:00 AM,Zach Glenn,Camps and Conferences,internal,MT,0:02,0:04
+83,6/28/2021 10:54,10:54:00 AM,6/28/2021 10:56,6/28/2021 10:57,10:57:00 AM,Zach Glenn,Camps and Conferences,internal,MT,0:02,0:01
+84,6/28/2021 10:57,10:57:00 AM,6/28/2021 10:57,6/28/2021 10:58,10:58:00 AM,Zach Glenn,Camps and Conferences,internal,MT,0:00,0:01
+85,6/29/2021 14:42,2:42:00 PM,6/29/2021 14:42,6/29/2021 14:43,2:43:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:00,0:01
+86,6/29/2021 14:43,2:43:00 PM,6/29/2021 14:43,6/29/2021 14:43,2:43:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:00,0:00
+87,6/29/2021 14:43,2:43:00 PM,6/29/2021 14:43,6/29/2021 14:43,2:43:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:00,0:00
+88,6/29/2021 14:43,2:43:00 PM,6/29/2021 14:44,6/29/2021 14:45,2:45:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:01,0:01
+89,6/29/2021 14:46,2:46:00 PM,6/29/2021 14:48,6/29/2021 14:58,2:58:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:02,0:10
+90,6/29/2021 14:58,2:58:00 PM,6/29/2021 15:01,6/29/2021 15:02,3:02:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:03,0:01
+91,6/29/2021 15:02,3:02:00 PM,6/29/2021 15:06,6/29/2021 15:07,3:07:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:04,0:01
+92,6/29/2021 15:07,3:07:00 PM,6/29/2021 15:23,6/29/2021 15:45,3:45:00 PM,Zach Glenn,Camps and Conferences,internal,MT,0:16,0:22
